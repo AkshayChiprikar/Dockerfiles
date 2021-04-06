@@ -1,0 +1,8 @@
+FROM centos
+WORKDIR /tmp
+RUN echo "Hello Evening" > /tmp/myfile
+ENV myname akki
+COPY rajfile /tmp
+ADD demo.tar.gz /tmp
+
+
